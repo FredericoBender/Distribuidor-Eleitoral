@@ -1,0 +1,11 @@
+instalar Pyinstaller 
+	-> pip install pyinstaller
+
+REQUISITO! versão do matplotlib instalada
+	-> pip install matplotlib==3.0.3
+
+compilar
+	-> pyinstaller --onefile distribuidor_eleitoral.py -i icone.ico
+
+final:
+	-->Jogar arquivos .csv na pasta que o executável está
